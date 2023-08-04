@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CAJERO AUTOMÁTICO</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+      <div id="form-container">
+      <form id="form">
+        <h1>CAJERO AUTOMÁTICO</h1>
+        <p>Introduzca su número de tarjeta</p>
+        <input type="text" id="cardnumber" name="cardnumber" />
+        <p>Introduzca su PIN</p>
+        <input type="text" id="pin" name="pin" />
+        <p>¿Qué desea hacer?</p>
+        <input type="radio" name="action" value="withdraw" /> Retirar dinero
+        <input type="radio" name="action" value="deposit" /> Depositar dinero
+        <input type="radio" name="action" value="checkbalance" /> Consultar saldo
+        <input type="submit" value="Aceptar" />
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
+
